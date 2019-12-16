@@ -1,0 +1,23 @@
+{
+  "name": "multi-window-electron-app",
+  "version": "1.0.0",
+  "description": "Multi window electron app to open work tool websites like email, calendar in a native app window.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsodha/multi-window-electron-app.git"
+  },
+  "author": "Raghu Sodha",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/rsodha/multi-window-electron-app/issues"
+  },
+  "homepage": "https://github.com/rsodha/multi-window-electron-app#readme",
+  "dependencies": {
+    "electron": "~7.1.5"
+  }
+}
