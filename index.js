@@ -1,6 +1,6 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
 
-let urls = ['https://chat.google.com', 'https://meet.google.com', 'https://hangouts.google.com', 'https://mail.google.com/', 'https://calendar.google.com/'];
+let urls = ['https://chat.google.com', 'https://mail.google.com/', 'https://calendar.google.com/'];
 
 function createWindow() {
     urls.forEach(url => {
@@ -14,4 +14,5 @@ function createWindow() {
     });
 }
 
-app.on('ready', createWindow)
+app.on('ready', createWindow);
+
